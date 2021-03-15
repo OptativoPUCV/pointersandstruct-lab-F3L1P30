@@ -76,3 +76,9 @@ Mon Mar 15 14:37:15 UTC 2021:
  tests:  1|6
 total_score: 10/70
 fa3a3ff
+Mon Mar 15 14:37:28 UTC 2021: 
+ exercises.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+ tests:  1|6
+total_score: 10/70
+b4aa760
