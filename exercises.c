@@ -37,13 +37,7 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
- 
-  
-  int i = 0;
-  for(i = m; i < n; i++){
-    *suma = sumaN(a,n);
-  }
-
+ *suma = sumaN(a,n) - sumaN(a,n - m);
 }
 
 /*
