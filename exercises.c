@@ -78,7 +78,7 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-   Vector *crear =  malloc(sizeof(Vector) * n);
+   Vector *crear =  malloc(sizeof(Vector) * n + 1);
    
 
    int i;
