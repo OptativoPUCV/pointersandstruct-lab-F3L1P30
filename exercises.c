@@ -81,9 +81,11 @@ Vector * crearVector(int n) {
    
    Vector *crear = (Vector *) calloc(n , sizeof(Vector));
    int i;
+
+   crear->datos = (int *) calloc(n , sizeof(int));
+   
    for(i = 0; i <= n; i++){
-     crear->datos[i] = 0;
-     crear[i].capacidad = 0;
+    crear[i].capacidad = 0;
    }
    
    return crear;
