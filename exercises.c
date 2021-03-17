@@ -84,7 +84,7 @@ Vector * crearVector(int n) {
   
   int i;
 
-  for(i = 0; i < n; i++){
+  for(i = 0; i <= n; i++){
     crear[i].datos = 0;
     crear[i].capacidad = 0;
   }
