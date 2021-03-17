@@ -73,14 +73,14 @@ correspondiente para el arreglo con `n` datos
 inicializados en 0 y luego retorna el vector creado.
 */
 typedef struct {
-   int * datos; // arreglo dinámico
+   int *datos; // arreglo dinámico
    int capacidad; // capacidad del arreglo
 } Vector;
 
 Vector * crearVector(int n) {
    
    Vector *crear = (Vector *) calloc(n , sizeof(Vector));
-   crear->datos =  calloc(n , sizeof(Vector));
+   //crear->datos = calloc(n , sizeof(Vector));
    return crear;
 
 }
