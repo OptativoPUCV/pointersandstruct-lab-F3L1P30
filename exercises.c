@@ -81,13 +81,9 @@ Vector * crearVector(int n) {
    
    Vector *crear;
    crear = (Vector *) malloc(sizeof(Vector) * n);
-    crear->datos =(int*) malloc(sizeof(int) * n);
-  int i;
+  crear->datos =(int*) malloc(sizeof(int) * n);
+  crear->capacidad = n;
 
-  for(i = 0; i <= n; i++){
-    crear[i].datos = 0;
-    crear[i].capacidad = 0;
-  }
     
   return crear;
 
