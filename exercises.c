@@ -80,9 +80,9 @@ typedef struct {
 Vector * crearVector(int n) {
    
    Vector *crear;
-   crear = (Vector *) calloc(n + 1, sizeof(Vector));
-
-return crear;
+   crear = (Vector *) calloc(n , sizeof(Vector));
+  crear->datos = malloc(n * sizeof(int));
+  return crear;
 
 }
 
