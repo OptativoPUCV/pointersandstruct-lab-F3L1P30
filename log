@@ -506,3 +506,9 @@ Fri Mar 19 21:03:05 UTC 2021:
  tests:  8|0
 total_score: 70/70
 d33d6ea
+Fri Mar 19 21:03:50 UTC 2021: 
+ exercises.c | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+ tests:  8|0
+total_score: 70/70
+ee19053
