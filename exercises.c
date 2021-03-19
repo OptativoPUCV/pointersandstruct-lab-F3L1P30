@@ -105,6 +105,7 @@ int obtenerValor(Vector * v, int i) {
   return v->datos[i];
 }
 
+
 /*
 Ejercicio 7.
 Función que suma los vectores `a` y `b` y 
@@ -125,10 +126,25 @@ Use las operaciones implementadas de vectores para
 sumar (a1,a2)+(b1+b2). Almacene el resultado en el vector c.
 */
 void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
+ Vector *a = crearVector(c->capacidad);
+ Vector *b = crearVector(c->capacidad);
+ int i = 0;
+ int aux = 0;
+ do{
 
-c->datos[0] = a1 + b1;
-c->datos[1] = a2 + b2;
+  if(i == 0){
+    asignarValor( a , i,  a1);
+    asignarValor( b , i,  b1);
+  }else{
+    asignarValor( a , i,  a2);
+    asignarValor( b , i,  b2);
+  }
+    i++;
+    aux++;
  
+ }while(aux <= i);
+  
+  sumaV(a , b, c);
 
 
 }
