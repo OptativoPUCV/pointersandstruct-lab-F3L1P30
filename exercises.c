@@ -135,9 +135,9 @@ void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
     
   if(i == 0){
     asignarValor( a , i,  a1);
-    asignarValor( b , i,  b1);
-  }else{
     asignarValor( a , i,  a2);
+  }else{
+    asignarValor( b , i,  b1);
     asignarValor( b , i,  b2);
   }
     i++;

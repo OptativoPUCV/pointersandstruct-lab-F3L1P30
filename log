@@ -483,3 +483,8 @@ Fri Mar 19 20:57:54 UTC 2021:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 9566c5b
+Fri Mar 19 20:58:44 UTC 2021: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|0
+a0f5f16
