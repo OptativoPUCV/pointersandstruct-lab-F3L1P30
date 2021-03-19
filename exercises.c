@@ -129,21 +129,21 @@ void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
  Vector *a = crearVector(c->capacidad);
  Vector *b = crearVector(c->capacidad);
  int i = 0;
- int aux = 0;
- do{
+ 
+ 
 
-    
+  for( i = 0; i < c->capacidad; i++){
   if(i == 0){
     asignarValor( a , i,  a1);
-    asignarValor( a , i,  a2);
-  }else{
-    asignarValor( b , i,  b1);
     asignarValor( b , i,  b2);
   }
-    i++;
-    aux++;
-   if(aux > i) break;
- }while(aux <= i);
+  if(i == 1){
+    asignarValor( a , i,  a2);
+    asignarValor( b , i,  b2);
+  }
+  
+  }
+ 
   
   sumaV(a , b, c);
 
